@@ -1,7 +1,7 @@
 Summary:  Interactive command-line tool for OpenSIPS 3.0+
 Name:     opensips-cli
-Version:  0.2
-Release:  0%{?dist}
+Version:  0.3
+Release:  1%{?dist}
 License:  GPL-3+
 Group:    System Environment/Daemons
 Source0:  Source0:  http://download.opensips.org/cli/%{name}-%{version}.tar.gz
@@ -68,6 +68,9 @@ rm -rf $RPM_BUILD_ROOT
 %license LICENSE
 
 %changelog
+* Mon Feb 19 2024 Luis Leal <luisl@scarab.co.za>
+- new package built with tito
+
 * Thu Aug 27 2020 Liviu Chircu <liviu@opensips.org> - 0.1-2
 - Update package summary.
 * Fri Jan 3 2020 Nick Altmann <nick.altmann@gmail.com> - 0.1-1
